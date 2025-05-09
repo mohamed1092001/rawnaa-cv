@@ -15,6 +15,9 @@
         body {
             line-height: 1.6;
             color: #000;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
         }
 
         .cv-container {
@@ -88,6 +91,15 @@
             margin: 15px 0;
         }
 
+        .project-item {
+            margin-bottom: 15px;
+        }
+
+        .project-date {
+            color: #666;
+            font-size: 0.9em;
+        }
+
         @media print {
             body {
                 padding: 0;
@@ -102,15 +114,15 @@
 <body>
     <div class="cv-container">
         <h1>Rawnaa El-Sayed Abdallah Mostafa</h1>
-        <p class="subtitle">Front-End & Full-Stack Developer | IT Student</p>
+        <p class="subtitle">Aspiring Full-Stack Developer | IT Student</p>
 
         <div class="contact-info">
             <a href="mailto:Rawnaaalsyd17@gmail.com">Rawnaaalsyd17@gmail.com</a> |
             <a href="tel:+201063648086">+20 106 364 8086</a> |
-            <a href="https://eg.linkedin.com/in/rawnaa-alsayed-146210304" target="_blank">LinkedIn</a>
+            <a href="https://linkedin.com/in/rawnaa-alsayed-146210304" target="_blank">linkedin.com/in/rawnaa-alsayed-146210304</a>
         </div>
 
-        <h2>Professional Summary</h2>
+        <h2>Summary</h2>
         <p>Dynamic and motivated third-year IT student with hands-on experience in front-end and full-stack development. Demonstrated proficiency in modern web technologies and a strong foundation in software development principles. Passionate about creating responsive, user-friendly applications while continuously expanding technical expertise in both front-end and back-end development.</p>
 
         <h2>Education</h2>
@@ -118,7 +130,7 @@
             <p><strong>Egyptian E-Learning University (EELU), Suez Canal Branch</strong></p>
             <p>Faculty of Computers and Information</p>
             <p>IT Department, Third-Year Student</p>
-            <p>Expected Graduation: 2025</p>
+            <p>Expected Graduation: 2026</p>
         </div>
 
         <h2>Technical Skills</h2>
@@ -126,11 +138,12 @@
             <div class="skill-category">
                 <h3>Front-End Development</h3>
                 <ul>
-                    <li>HTML5, CSS3, JavaScript</li>
-                    <li>React.js</li>
+                    <li>HTML5, CSS3, JavaScript, TypeScript</li>
+                    <li>React.js, Redux</li>
                     <li>UI/UX Design Principles</li>
                     <li>Responsive Web Design</li>
-                    <li>Modern CSS Frameworks</li>
+                    <li>Modern CSS Frameworks (Bootstrap, Tailwind)</li>
+                    <li>Unit Testing (Jest)</li>
                 </ul>
             </div>
 
@@ -138,8 +151,10 @@
                 <h3>Back-End Development</h3>
                 <ul>
                     <li>Node.js / PHP (Basic)</li>
-                    <li>Database Management (MySQL, MongoDB)</li>
+                    <li>Database Management (MySQL, MongoDB, Oracle)</li>
                     <li>RESTful API Integration</li>
+                    <li>Express.js</li>
+                    <li>Oracle Database Basics (SQL, PL/SQL)</li>
                 </ul>
             </div>
 
@@ -149,7 +164,7 @@
                     <li>Java (OOP, Data Structures, GUI Development)</li>
                     <li>C++</li>
                     <li>Python</li>
-                    <li>JavaScript</li>
+                    <li>JavaScript/TypeScript</li>
                 </ul>
             </div>
 
@@ -158,6 +173,8 @@
                 <ul>
                     <li>Git & GitHub</li>
                     <li>Version Control</li>
+                    <li>Agile/Scrum Methodologies</li>
+                    <li>CI/CD Basics</li>
                     <li>Problem Solving</li>
                     <li>Basic Machine Learning Concepts</li>
                 </ul>
@@ -167,19 +184,31 @@
         <h2>Certifications</h2>
         <div class="certifications">
             <ul>
-                <li>Full Stack Web Development - Nerd Academy</li>
-                <li>Networking Basics - Cisco Networking Academy</li>
+                <li>Front End Web Development - Nerd Academy (July 2024)</li>
+                <li>CCNA: Switching, Routing, and Wireless Essentials - Cisco Networking Academy (Issued: January 30, 2024)</li>
+                <li>CCNA: Introduction to Networks - Cisco Networking Academy (Issued: May 23, 2024)</li>
             </ul>
         </div>
 
-        <h2>Projects</h2>
+        <h2>Technical Projects</h2>
         <div class="projects">
-            <ul>
-                <li>Developed and deployed responsive websites using React.js, HTML, and JavaScript</li>
-                <li>Created full-stack web applications during professional training</li>
-                <li>Implemented academic projects utilizing Java, Python, and C++</li>
-                <li>Applied machine learning concepts in coursework and practical applications</li>
-            </ul>
+            <div class="project-item">
+                <p><strong>Full-Stack Web Application</strong> <span class="project-date">(Jan 2024 - Present)</span></p>
+                <ul>
+                    <li>Developed and deployed responsive websites using React.js, HTML, and JavaScript</li>
+                    <li>Implemented RESTful APIs and database integration</li>
+                    <li>Applied Agile methodologies in project development</li>
+                </ul>
+            </div>
+
+            <div class="project-item">
+                <p><strong>Academic Projects</strong> <span class="project-date">(2023 - Present)</span></p>
+                <ul>
+                    <li>Implemented projects utilizing Java, Python, and C++</li>
+                    <li>Applied machine learning concepts in coursework</li>
+                    <li>Developed GUI applications using Java Swing</li>
+                </ul>
+            </div>
         </div>
 
         <h2>Languages</h2>
